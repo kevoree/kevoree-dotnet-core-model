@@ -1,19 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>KevoreeModel.dll</id>
-        <version>1.0.0</version>
+        <id>Org.Kevoree.Core.Model</id>
+        <version>5.2.5</version>
         <title>KevoreeModel</title>
-        <authors>mleduc</authors>
-        <owners>mleduc</owners>
-        <projectUrl>https://github.com/kevoree/</projectUrl>
+        <authors>Manuel Leduc</authors>
+        <owners>Kevoree</owners>
+        <projectUrl>https://github.com/kevoree/kevoree-dotnet-core-model</projectUrl>
         <iconUrl>https://avatars3.githubusercontent.com/u/5556542?v=3&amp;s=200</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Kevoree Model</description>
         <copyright>Copyright 2015</copyright>
         <tags>kevoree model</tags>
+        <dependencies>
+            <dependency id="IKVM" version="8.0.5449.1" />
+        </dependencies>
     </metadata>
     <files>
-        <file src="lib\net40\KevoreeModel.dll" target="lib\net40\KevoreeModel.dll" />
+        <file src="lib\KevoreeModel.dll" target="lib\KevoreeModel.dll" />
     </files>
 </package>
